@@ -26,7 +26,7 @@ class CurrentDayActivity : AppCompatActivity() {
     private val dayOfMonth: String
         get() {
             val cal = Calendar.getInstance()
-//            return cal[Calendar.DAY_OF_MONTH]
+            // return cal[Calendar.DAY_OF_MONTH]
             /* below is my solution */
             val month = cal[Calendar.MONTH]
             val day = cal[Calendar.DAY_OF_MONTH]
