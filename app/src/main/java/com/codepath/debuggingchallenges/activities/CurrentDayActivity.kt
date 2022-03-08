@@ -20,7 +20,6 @@ class CurrentDayActivity : AppCompatActivity() {
 //        tvDay?.setText(dayOfMonth)  // original line
         tvDay?.text = dayOfMonth.toString()
         Log.i(TAG, "info : in CurrentDayActivity.kt")
-        Log.e(TAG, "error: in CurrentDayActivity.kt")
     }
 
     private val dayOfMonth: String
